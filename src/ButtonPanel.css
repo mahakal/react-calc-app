@@ -1,0 +1,48 @@
+/* C B */
+.calc-btn-row:first-child button{
+  background: rgba(0,0,0,1);
+}
+
+.calc-btn-row:first-child button:hover{
+  background: rgba(20,20,20,0.95);
+}
+
+/* Operators */
+.calc-btn-row button:nth-child(4) {
+  background: rgba(13,71,161 ,1);
+  color: black;
+}
+
+.calc-btn-row button:nth-child(4):hover {
+  background: rgba(13,71,161 ,0.75);
+  color: white;
+}
+
+/* = */
+.calc-btn-row:last-child button:nth-child(3){
+  background: rgba(241,196,15 ,1);
+  color: black;
+}
+
+.calc-btn-row:last-child button:nth-child(3):hover{
+  background: rgba(241,196,15 ,0.75);
+  color: white;
+}
+
+/* Numbers/Operands */
+.calc-btn {
+  padding: 15px 20px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  border: 0px;
+}
+
+.calc-btn:hover {
+  background: rgba(0,0,0,0.75);
+}
+
+.calc-btn:focus {
+  outline: 0;
+}
